@@ -13,9 +13,9 @@ public class BasicAuthGenerator {
         System.out.println("Basic auth is: "+getBasicAuth(getInstallationID()));
     }
 
-    //you make up any android id or mac address. These are just examples
+    //you can make up any android id or mac address. These are just examples
     private static String generateID() {
-        String myid = "9f510484b20a905a"; //some random androidid
+        String myid = "9f510484b20a905a"; //some random android id
         StringBuilder stringBuilder = new StringBuilder();
         stringBuilder.append("androidId ");
         stringBuilder.append(myid);
